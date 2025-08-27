@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Background video */
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 8%;
+    background: rgba(0, 60, 30, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #f5c542;
+}
+
+section.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f5a623;
+    animation: fadeInDown 1.2s ease;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    animation: fadeIn 2s ease;
+}
+
+.tagline {
+    margin-top: 12px;
+    font-weight: 600;
+    color: #f5c542;
+}
+
+.quote-box {
+    margin-top: 30px;
+    background: rgba(0, 40, 30, 0.7);
+    padding: 20px 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    animation: fadeInUp 1.5s ease;
+}
+
+.quote-box p {
+    font-style: italic;
+}
+
+.quote-box span {
+    color: #f5c542;
+    font-weight: bold;
+}
+
+.scroll-down {
+    margin-top: 40px;
+    font-size: 26px;
+    color: #fff;
+    animation: bounce 2s infinite;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+/*blog ka kaam hay */
+
+section.life {
+    padding: 80px 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: #fff;
+}
+
+.life-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    align-items: center;
+}
+
+.life-block img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.life-block img:hover {
+    transform: scale(1.05);
+}
+
+.text h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #005530;
+    margin-bottom: 10px;
+}
+
+.text h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f5a623;
+    margin-bottom: 15px;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #007a44;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: transform .3s ease, background .3s ease;
+}
+
+.btn:hover {
+    background: #005f33;
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    section.life {
+        padding: 40px 5%;
+    }
+
+    .text h2 {
+        font-size: 1.6rem;
+    }
+}
+
+
+/*yaha sey about ka kaam st howa */
+
+
+
+/* About Section */
+.about {
+  background: #e6fff3; /* same soft green background */
+  padding: 40px 8%;
+  text-align: center;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #005530;
+  margin-bottom: 10px;
+}
+.about-text p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+/* Team cards */
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 1000px;
+  margin-left: 150px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.card h3 {
+  color: #007a44;
+  margin-bottom: 5px;
+}
+.role {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Commitment section */
+
+.commitment{
+
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 1000px;
+    margin-left: 150px;
+
+}
+.commitment h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #005530;
+}
+.points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  text-align: left;
+}
+
+/* Contact button */
+.contact-btn {
+  margin-top: 40px;
+}
+.contact-btn button {
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #007a44;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.contact-btn button:hover {
+  background: #005f33;
+  transform: scale(1.1);
+}
+
+
+
+
+/*yaha sey footer st hay */
+
+
+/* Yellow Line */
+.top-line {
+  width: 100%;
+  height: 6px;
+  background: #FFD700; /* yellow */
+}
+
+footer {
+  background-color: #004d40; /* dark green (same as screenshot) */
+  color: white;
+  padding: 30px 20px 15px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.footer-column h3 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.team-card {
+ border: 2px solid #005f33;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.bottom-bar {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: 25px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.heart {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-column {
+    text-align: center;
+  }
+}
