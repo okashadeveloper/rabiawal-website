@@ -424,3 +424,295 @@ footer {
     text-align: center;
   }
 }
+
+
+
+/*yaha sey contact ka kaam st hay */
+
+/* Contact Header Section */
+.contact-header {
+background-image: url(./images/contact.png);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #4da3ff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: #f4c542; /* golden */
+  margin-bottom: 30px;
+}
+
+.contact-quote {
+  background: #3d4a6b;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.contact-quote span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #f4c542; /* golden */
+}
+
+
+
+
+
+/* Team Section */
+.team-section {
+  padding: 60px 20px;
+  background: #fdfdfb;
+  text-align: center;
+}
+
+/* Intro Box */
+.team-intro-box {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 25px;
+   background: #e6f7f4;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+.team-heading {
+  color: #006644;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.team-intro {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Members Layout */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Team Card */
+.team-card1 {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 500px;
+}
+.team-card1:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon */
+.team-icon {
+  font-size: 2rem;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 auto 15px;
+}
+.team-icon.orange { background: #e69500; }
+.team-icon.green { background: #008060; }
+
+/* Name & Role */
+.team-name {
+  font-size: 1.4rem;
+  color: #004d33;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.team-role {
+  font-size: 0.95rem;
+  color: #b36b00;
+  margin-bottom: 15px;
+}
+
+/* Bio */
+.team-bio {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Expertise Box */
+.team-expertise {
+  text-align: left;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.team-expertise strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #004d33;
+}
+.team-expertise ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.team-expertise li {
+  margin-bottom: 5px;
+}
+
+/* Colors */
+.light-green { background: #e7f8ef; }
+.light-blue { background: #e9f2ff; }
+  
+
+
+
+
+.contact-section {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Info */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-info h2 {
+  color: #006644;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.info-box strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.yellow { background: #fff3cd; border-left: 5px solid #ffcc00; }
+.green { background: #e6f7ee; border-left: 5px solid #28a745; }
+.blue { background: #e6f0ff; border-left: 5px solid #007bff; }
+
+/* Right Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #008060;
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background: #006644;
+}
+
+/* Dua Box */
+.dua-box {
+  margin-top: 50px;
+  background: #e6f7f4;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 800px;
+  margin-left: 380px;
+}
+.dua-box h3 {
+  color: #006644;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.dua-box p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.dua-box .quote {
+  font-style: italic;
+  color: #007b5e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
