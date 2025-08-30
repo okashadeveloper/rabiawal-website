@@ -424,3 +424,934 @@ footer {
     text-align: center;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/*yaha sey contact ka kaam st hay */
+
+/* Contact Header Section */
+.contact-header {
+background-image: url(./images/contact.png);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #4da3ff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: #f4c542; /* golden */
+  margin-bottom: 30px;
+}
+
+.contact-quote {
+  background: #3d4a6b;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.contact-quote span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+  color: #f4c542; /* golden */
+}
+
+
+
+
+
+/* Team Section */
+.team-section {
+  padding: 60px 20px;
+  background: #fdfdfb;
+  text-align: center;
+}
+
+/* Intro Box */
+.team-intro-box {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 25px;
+   background: #e6f7f4;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+.team-heading {
+  color: #006644;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.team-intro {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Members Layout */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Team Card */
+.team-card1 {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 500px;
+}
+.team-card1:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon */
+.team-icon {
+  font-size: 2rem;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 auto 15px;
+}
+.team-icon.orange { background: #e69500; }
+.team-icon.green { background: #008060; }
+
+/* Name & Role */
+.team-name {
+  font-size: 1.4rem;
+  color: #004d33;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.team-role {
+  font-size: 0.95rem;
+  color: #b36b00;
+  margin-bottom: 15px;
+}
+
+/* Bio */
+.team-bio {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Expertise Box */
+.team-expertise {
+  text-align: left;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.team-expertise strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #004d33;
+}
+.team-expertise ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.team-expertise li {
+  margin-bottom: 5px;
+}
+
+/* Colors */
+.light-green { background: #e7f8ef; }
+.light-blue { background: #e9f2ff; }
+  
+
+
+
+
+.contact-section {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Info */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.contact-info h2 {
+  color: #006644;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.info-box strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.yellow { background: #fff3cd; border-left: 5px solid #ffcc00; }
+.green { background: #e6f7ee; border-left: 5px solid #28a745; }
+.blue { background: #e6f0ff; border-left: 5px solid #007bff; }
+
+/* Right Form */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #008060;
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background: #006644;
+}
+
+/* Dua Box */
+.dua-box {
+  margin-top: 50px;
+  background: #e6f7f4;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 800px;
+  margin-left: 380px;
+}
+.dua-box h3 {
+  color: #006644;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+.dua-box p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.dua-box .quote {
+  font-style: italic;
+  color: #007b5e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*yaha sey mes ka kaam st hay */
+
+
+
+.universal-message {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.universal-message h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.universal-message p {
+  color: #374151;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.message-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+.hadith-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #f0fdfa, #eff6ff);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hadith-section h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.hadith-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.hadith-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hadith-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.hadith-card .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.hadith-card h3 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.hadith-card p {
+  color: #374151;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+
+
+.golden-teaching {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.golden-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.golden-text h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  background: #fff7ed;
+  padding: 15px;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+blockquote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+blockquote span {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #d97706;
+}
+
+.golden-text p {
+  color: #374151;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.golden-img {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.golden-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.golden-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .golden-teaching {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .golden-text {
+    order: 2;
+  }
+
+  .golden-img {
+    order: 1;
+  }
+}
+
+
+.life-guidance {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.life-guidance h2 {
+  color: #064e3b;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.guidance-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.guidance-column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.guidance-column h3 {
+  color: #065f46;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.guidance-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guidance-column li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.green { background: #10b981; }
+.orange { background: #f59e0b; }
+
+.guidance-column strong {
+  display: block;
+  font-weight: 600;
+  color: #111827;
+}
+
+.guidance-column p {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 3px 0 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .guidance-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
+
+
+.final-sermon {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.final-sermon h2 {
+  font-size: 28px;
+  color: #f0fdf4;
+  margin-bottom: 10px;
+}
+
+.final-sermon .subtitle {
+  color: #d1fae5;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.sermon-card {
+  background: #065f46;
+  border-radius: 20px;
+  padding: 40px;
+  color: #f9fafb;
+  transition: transform 0.4s ease;
+}
+
+.sermon-card:hover {
+  transform: scale(1.03);
+}
+
+blockquote {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 10px;
+  color: #facc15;
+  font-weight: 500;
+}
+
+.sermon-bottom {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.message-box {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.message-box h3 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.message-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #f9fafb;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .sermon-bottom {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yaha sey ahley bayt ka kaam st hay*/
+
+
+/* Section Background */
+.ahle-bayt-section {
+  background: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Style */
+.ahle-bayt-card {
+  max-width: 850px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 40px 30px;
+  text-align: center;
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #f2f2f2;
+}
+
+/* Heading */
+.ahle-bayt-card h2 {
+  color: #1d3d8f;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.ahle-bayt-card p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ahle-bayt-card {
+    padding: 25px 20px;
+  }
+
+  .ahle-bayt-card h2 {
+    font-size: 24px;
+  }
+
+  .ahle-bayt-card p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* Section */
+.family-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.family-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3d8f;
+  margin-bottom: 40px;
+}
+
+/* Container */
+.family-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Card */
+.family-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.family-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Icon */
+.family-card .icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+/* Name */
+.family-card h3 {
+  font-size: 20px;
+  color: #0a3d62;
+  margin-bottom: 5px;
+}
+
+/* Arabic Name */
+.family-card .arabic {
+  font-size: 18px;
+  color: #028f4f;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Title */
+.family-card .title {
+  font-size: 16px;
+  color: #7d3c98;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Description */
+.family-card .desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+/* Section */
+.tree-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tree-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3d8f;
+  margin-bottom: 40px;
+}
+
+/* Container */
+.tree-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Row */
+.tree-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.tree-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 220px;
+  max-width: 260px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tree-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Center cards */
+.center {
+  margin: 0 auto;
+}
+
+/* Icon */
+.tree-card .icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Name */
+.tree-card h3 {
+  font-size: 20px;
+  color: #0a3d62;
+  margin-bottom: 5px;
+}
+
+/* Arabic Name */
+.tree-card .arabic {
+  font-size: 18px;
+  color: #028f4f;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Title */
+.tree-card .title {
+  font-size: 15px;
+  color: #7d3c98;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tree-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
