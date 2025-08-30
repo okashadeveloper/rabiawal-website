@@ -424,16 +424,6 @@ footer {
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
 /*yaha sey contact ka kaam st hay */
 
 /* Contact Header Section */
@@ -721,19 +711,8 @@ background-size: cover;
   .contact-container {
     flex-direction: column;
     align-items: stretch;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-/*yaha sey mes ka kaam st hay */
+  }}
+/*ya}ha sey mes ka kaam st hay */
 
 
 
@@ -1354,4 +1333,5 @@ blockquote span {
     flex-direction: column;
     align-items: center;
   }
+
 }
