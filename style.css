@@ -89,6 +89,7 @@ section.hero {
 
 .quote-box p {
     font-style: italic;
+    color: whitesmoke;
 }
 
 .quote-box span {
@@ -714,5 +715,2245 @@ background-size: cover;
   .contact-container {
     flex-direction: column;
     align-items: stretch;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yaha sey birth ka kaam st hay */
+
+.contact-header1 {
+background-image: url(./images/birth.jpg);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+.blessed-birth {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.birth-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.birth-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.birth-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.birth-date,
+.birth-location {
+  color: #d19d47;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.birth-desc {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+.birth-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.birth-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.birth-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+/* Childhood Section */
+.childhood-container {
+  background: #fafafa;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.childhood-heading {
+  text-align: center;
+  font-size: 24px;
+  color: #064b33;
+  margin-bottom: 20px;
+}
+
+.childhood-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.child-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.child-box:hover {
+  transform: translateY(-5px);
+}
+
+.child-box h4 {
+  margin-bottom: 10px;
+  color: #064b33;
+}
+
+
+
+.blessed-birth-rev {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.birth-top-rev {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.birth-image-wrap-rev {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.birth-image-rev {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.birth-image-rev:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.birth-text-rev {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.birth-heading-rev {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.birth-date-rev,
+.birth-location-rev {
+  color: #d19d47;
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.birth-desc-rev {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+
+.colour-box {
+  background: #e6f7f4;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+  width: 600px;
+  margin-left: 600px;
+  border-left:2px solid  green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .birth-top-rev {
+    flex-direction: column;
+    text-align: center;
+  }
+  .birth-text-rev {
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*yaha sey prophethood ka kaam st hay */
+
+.contact-header-prophet{
+background-image: url(./images/contact.png);
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+
+.contact-quote-prophet{
+  background-color: #357759;
+;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.prophethood-section {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.prophethood-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.prophethood-text {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.prophethood-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 10px;
+}
+
+.prophethood-location {
+  color: #0f9960;
+  font-size: 15px;
+  margin: 5px 0 15px;
+}
+
+.prophethood-desc {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #333;
+}
+
+.first-command-box {
+  background: #fff5e1;
+  border-left: 4px solid #d19d47;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.first-command-box h4 {
+  color: #d19d47;
+  margin-bottom: 8px;
+}
+
+.first-command-box p {
+  color: #444;
+  font-size: 15px;
+}
+
+.prophethood-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.prophethood-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.prophethood-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .prophethood-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .prophethood-text {
+    padding-right: 0;
+  }
+}
+
+
+
+.momentous-event {
+  background: #f0fcf9;
+  padding: 50px 20px;
+  border-radius: 14px;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.momentous-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 20px;
+}
+
+.momentous-icon {
+  width: 50px;
+  height: 50px;
+  background: #f5a623;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 25px;
+  font-size: 22px;
+  color: white;
+}
+
+.momentous-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.momentous-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.momentous-inner-card {
+  background: #00503c;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.arabic-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.translation-text {
+  color: #f5c76f;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.verse-ref {
+  font-size: 13px;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .momentous-card {
+    padding: 20px;
+  }
+  .arabic-text {
+    font-size: 18px;
+  }
+}
+
+
+
+/* Support Section */
+.khadijah-support {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.support-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.support-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.support-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.support-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.support-text {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.support-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 15px;
+}
+
+.support-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.support-quote {
+  background: #fdeaea;
+  border-left: 4px solid #e74c3c;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.support-quote p {
+  color: #b33a3a;
+  margin-bottom: 5px;
+}
+
+.support-quote span {
+  font-size: 12px;
+  color: #b33a3a;
+}
+
+/* Guidance Section */
+.guidance-mission {
+  background: #f8fdfb;
+  padding: 40px 20px;
+  border-radius: 14px;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.guidance-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.guidance-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.guidance-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.guidance-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-circle.yellow { background: #f5a623; }
+.icon-circle.green { background: #0f9960; }
+.icon-circle.blue { background: #3f80e0; }
+
+.guidance-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+}
+
+.guidance-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .support-text {
+    padding-left: 0;
+  }
+  .guidance-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yaha sey Quran kaam st hay */
+
+/* Support Section */
+.khadijah-support {
+  padding: 50px 20px;
+  background: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.support-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.support-image-wrap {
+  flex: 1;
+  text-align: center;
+  min-width: 300px;
+}
+
+.support-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.support-image:hover {
+  transform: scale(1.08) translateY(-8px);
+}
+
+.support-text {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.support-heading {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 15px;
+}
+
+.support-desc {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.support-quote {
+  background: #fdeaea;
+  border-left: 4px solid #e74c3c;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.support-quote p {
+  color: #b33a3a;
+  margin-bottom: 5px;
+}
+
+.support-quote span {
+  font-size: 12px;
+  color: #b33a3a;
+}
+
+/* Guidance Section */
+.guidance-mission {
+  background: #f8fdfb;
+  padding: 40px 20px;
+  border-radius: 14px;
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.guidance-heading {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.guidance-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.guidance-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.guidance-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-circle.yellow { background: #f5a623; }
+.icon-circle.green { background: #0f9960; }
+.icon-circle.blue { background: #3f80e0; }
+
+.guidance-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+}
+
+.guidance-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .support-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .support-text {
+    padding-left: 0;
+  }
+  .guidance-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+.quran-miracle {
+  background: #fff8f0;
+  padding: 50px 20px;
+  border-radius: 16px;
+  width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.quran-miracle-title {
+  font-size: 28px;
+  color: #064b33;
+  margin-bottom: 30px;
+}
+
+.quran-miracle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.quran-miracle-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.quran-miracle-card:hover {
+  transform: translateY(-5px);
+}
+
+.quran-miracle-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.quran-miracle-icon.yellow { background: #f5a623; }
+.quran-miracle-icon.green { background: #0f9960; }
+.quran-miracle-icon.blue { background: #3f80e0; }
+.quran-miracle-icon.pink { background: #e74c3c; }
+
+.quran-miracle-card h4 {
+  color: #064b33;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.quran-miracle-card p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Responsive Padding */
+@media (max-width: 768px) {
+  .quran-miracle {
+    padding: 30px 15px;
+  }
+}
+
+
+
+.quran-treasures {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.quran-treasures-title {
+  font-size: 26px;
+  color: #064b33;
+  margin-bottom: 25px;
+}
+
+.quran-treasures-card {
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.quran-arabic {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.quran-treasures-card p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.quran-treasures-card span {
+  font-size: 14px;
+  display: block;
+}
+
+/* Color Variants */
+.dark-green {
+  background: #025b3a;
+  color: white;
+}
+.dark-green span {
+  color: #ffc107;
+}
+
+.light-blue {
+  background: #f3f8ff;
+  color: #1e3a8a;
+  border: 1px solid #d6e4ff;
+}
+
+.light-yellow {
+  background: #fffaf0;
+  color: #7a3e00;
+  border: 1px solid #f9e5b0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quran-treasures {
+    padding: 30px 15px;
+  }
+  .quran-treasures-card {
+    padding: 20px;
+  }
+}
+
+
+.living-miracle {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.living-miracle-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.living-miracle-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.living-miracle-text {
+  flex: 1;
+  text-align: left;
+}
+
+.living-miracle-text h2 {
+  color: #064b33;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.living-miracle-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.living-miracle-quote {
+  background: #e6f7ee;
+  padding: 15px;
+  border-radius: 8px;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.living-miracle-quote span {
+  display: block;
+  font-size: 14px;
+  color: #064b33;
+  margin-top: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .living-miracle-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .living-miracle-image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .living-miracle-text {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*yaha sey family kaa kaam st hay */
+
+
+.marriage-section {
+  background: #fff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.marriage-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.marriage-text {
+  flex: 1;
+  text-align: left;
+}
+
+.marriage-text h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.marriage-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.marriage-highlight {
+  background: #fdecec;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #f8b7b7;
+  margin-top: 15px;
+}
+
+.marriage-highlight h4 {
+  color: #b91c1c;
+  margin-bottom: 5px;
+}
+
+.marriage-highlight p {
+  color: #7f1d1d;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.marriage-image img {
+  width: 480px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .marriage-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .marriage-image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .marriage-text {
+    text-align: center;
+  }
+}
+
+
+.children-section {
+  background: #f0f4ff;
+  padding: 50px 20px;
+  border-radius: 16px;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.children-container h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.children-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.children-column {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.children-column h3 {
+  font-size: 20px;
+  color: #4b0082;
+  margin-bottom: 15px;
+}
+
+.children-column:nth-child(2) h3 {
+  color: #0f52ba;
+}
+
+.child-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.child-card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.child-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .children-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .children-column {
+    text-align: center;
+  }
+
+  .child-card {
+    text-align: center;
+  }
+}
+
+
+.mothers-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.mothers-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Left Side Image */
+.mothers-image img {
+  width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Side Content */
+.mothers-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.mothers-content h2 {
+  font-size: 28px;
+  color: #065f46;
+  margin-bottom: 15px;
+}
+
+.mothers-content p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Quote Box */
+.quote-box {
+  background: #fff7e6;
+  border-left: 4px solid #ffb347;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mothers-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mothers-image img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .quote-box {
+    text-align: center;
+  }
+}
+
+
+.family-values-section {
+  text-align: center;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.family-values-section h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.values-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.value-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.value-card h3 {
+  color: #064e3b;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.quote-family {
+  background: #e6fff3;
+  padding: 15px 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quote-family h4 {
+  margin-bottom: 8px;
+  color: #064e3b;
+}
+
+.quote-family em {
+  font-style: italic;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quote-family p {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .values-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+/*yaha sey hijrah ka kaam st hay */
+
+
+
+
+.hijrah-section {
+  max-width: 1100px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.hijrah-section h2 {
+  font-size: 28px;
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.hijrah-section .intro {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hijrah-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.text-part {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-part h3 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.text-part p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.assassination-box {
+  background: #ffeaea;
+  border: 1px solid #f5b5b5;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-top: 10px;
+}
+
+.assassination-box h4 {
+  color: #b91c1c;
+  margin-bottom: 6px;
+}
+
+.assassination-box p {
+  color: #7f1d1d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.image-part img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .hijrah-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text-part {
+    text-align: left;
+  }
+  
+  .image-part img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+
+
+.historic-journey {
+  background: #e6f9fc;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.historic-journey h2 {
+  font-size: 28px;
+  color: #065f46;
+  margin-bottom: 30px;
+}
+
+.journey-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.journey-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-align: left;
+}
+
+.journey-card:hover {
+  transform: translateY(-5px);
+  background: #f0fdf4;
+}
+
+.journey-card .icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #065f46;
+}
+
+.journey-card h3 {
+  color: #065f46;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.journey-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .historic-journey h2 {
+    font-size: 24px;
+  }
+}
+
+
+.welcome-madinah {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.image-container:hover img {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.text-container {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease;
+}
+
+.text-container:hover {
+  transform: translateX(5px);
+}
+
+.text-container h2 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  color: #444;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+blockquote {
+  background: #ecfdf5;
+  border-left: 4px solid #10b981;
+  padding: 10px;
+  font-style: italic;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .welcome-madinah {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.hijrah-significance {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.hijrah-significance h2 {
+  color: #064e3b;
+  margin-bottom: 20px;
+}
+
+.content-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.content-column {
+  flex: 1;
+}
+
+.content-column h3 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.content-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-column ul li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  color: #444;
+}
+
+.content-column ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-size: 18px;
+}
+
+.orange-list li::before {
+  color: #f59e0b;
+}
+
+.promise-box {
+  background: #ecfdf5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.promise-box h4 {
+  color: #064e3b;
+  margin-bottom: 8px;
+}
+
+.promise-box .quote {
+  font-style: italic;
+  color: #1e293b;
+}
+
+.promise-box .verse {
+  margin: 5px 0;
+  color: #0369a1;
+}
+
+.promise-box .explanation {
+  font-size: 14px;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .content-grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yaha sey battles kaa kaam st hay */
+
+
+
+
+.battles-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.battles-section h2 {
+  color: #064e3b;
+  margin-bottom: 10px;
+}
+
+.battles-section .intro {
+  color: #374151;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.battle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.battle-text {
+  flex: 1 1 55%;
+}
+
+.battle-text h3 {
+  color: #065f46;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.battle-text .date {
+  color: #f59e0b;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.battle-text p {
+  color: #444;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.battle-quote {
+  background: #ecfdf5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.battle-quote h4 {
+  color: #064e3b;
+  margin-bottom: 6px;
+}
+
+.battle-image {
+  flex: 1 1 40%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.battle-image img {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.battle-image:hover img {
+  transform: translateY(-10px);
+}
+
+@media (max-width: 900px) {
+  .battle-container {
+    flex-direction: column;
+  }
+
+  .battle-image {
+    margin-top: 20px;
+  }
+}
+
+
+.uhud-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff7ed;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.uhud-section h2 {
+  color: #064e3b;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.uhud-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.uhud-card {
+  background: #fff;
+  flex: 1 1 45%;
+  min-width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.uhud-card:hover {
+  transform: translateY(-8px);
+}
+
+.uhud-card h3 {
+  color: #065f46;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.uhud-card p {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.uhud-injury {
+  background: #fff;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  border-top: 3px solid #dc2626;
+}
+
+.uhud-injury h3 {
+  color: #b91c1c;
+  margin-bottom: 10px;
+}
+
+.uhud-injury p {
+  color: #374151;
+  line-height: 1.6;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .uhud-cards {
+    flex-direction: column;
+  }
+}
+
+
+.trench-section {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.trench-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.trench-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.trench-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.trench-content {
+  flex: 1 1 55%;
+}
+
+.trench-content h2 {
+  font-size: 26px;
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.trench-content .date {
+  color: #047857;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.trench-content p {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.trench-content blockquote {
+  background: #e0f2fe;
+  padding: 15px;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+  font-style: italic;
+  color: #1e3a8a;
+}
+
+@media (max-width: 768px) {
+  .trench-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .trench-content {
+    text-align: left;
+  }
+}
+
+
+.battles-section {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.battles-section h2 {
+  color: #064e3b;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.battles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.battle-card {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.battle-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.battle-card p {
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+.battle-card blockquote {
+  font-style: italic;
+  color: #1f2937;
+  border-left: 4px solid rgba(0,0,0,0.2);
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.battle-card small {
+  display: block;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Color Variants */
+.battle-card.green { background: #ecfdf5; }
+.battle-card.blue { background: #eff6ff; }
+.battle-card.purple { background: #f5f3ff; }
+.battle-card.yellow { background: #fffbeb; }
+
+@media (max-width: 768px) {
+  .battles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.rules-war {
+  background: #065f46;
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.rules-war:hover {
+  transform: translateY(-5px);
+  background: #047857;
+}
+
+.rules-war h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.rules-war p {
+  font-size: 16px;
+  color: #d1fae5;
+  margin-bottom: 20px;
+}
+
+.rules-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+
+.rules-column h3 {
+  color: #facc15;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.rules-column ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #fef9c3;
+}
+
+blockquote {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #fef9c3;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .rules-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*yaha sey ahley bayt ka kaam st hay */
+
+
+/* Section Background */
+.ahle-bayt-section {
+  background: #fff;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Style */
+.ahle-bayt-card {
+  max-width: 850px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 40px 30px;
+  text-align: center;
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #f2f2f2;
+}
+
+/* Heading */
+.ahle-bayt-card h2 {
+  color: #1d3d8f;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.ahle-bayt-card p {
+  color: #444;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ahle-bayt-card {
+    padding: 25px 20px;
+  }
+
+  .ahle-bayt-card h2 {
+    font-size: 24px;
+  }
+
+  .ahle-bayt-card p {
+    font-size: 16px;
+  }
+}
+
+
+
+
+/* Section */
+.family-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.family-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3d8f;
+  margin-bottom: 40px;
+}
+
+/* Container */
+.family-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Card */
+.family-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.family-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+/* Icon */
+.family-card .icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+/* Name */
+.family-card h3 {
+  font-size: 20px;
+  color: #0a3d62;
+  margin-bottom: 5px;
+}
+
+/* Arabic Name */
+.family-card .arabic {
+  font-size: 18px;
+  color: #028f4f;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Title */
+.family-card .title {
+  font-size: 16px;
+  color: #7d3c98;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Description */
+.family-card .desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+
+.family-tree {
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+.family-tree h2 {
+  font-size: 28px;
+  color: #064e3b;
+  margin-bottom: 30px;
+}
+
+.tree-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tree-card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.tree-card:hover {
+  transform: scale(1.05);
+}
+
+.tree-card h3 {
+  font-size: 18px;
+  color: #065f46;
+  margin: 10px 0 5px;
+}
+
+.tree-card .arabic {
+  font-size: 16px;
+  color: #047857;
+  margin-bottom: 5px;
+}
+
+.tree-card .desc {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.tree-branches {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.main-card {
+  background: linear-gradient(135deg, #e0f2fe, #ecfdf5);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .tree-branches {
+    flex-direction: column;
+  }
+}
+
+.dua-box {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 128, 0, 0.1);
+}
+
+.dua-box .eng-text {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.dua-box .arb-text {
+  font-size: 18px;
+  color: #065f46;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .dua-box {
+    padding: 15px;
+  }
+  .dua-box .eng-text {
+    font-size: 14px;
+  }
+  .dua-box .arb-text {
+    font-size: 16px;
   }
 }
