@@ -3390,5 +3390,377 @@ blockquote span {
     flex-direction: column;
     align-items: center;
   }
+}
 
+
+
+ /*ya}ha sey mes ka kaam st hay */
+
+
+
+.universal-message {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.universal-message h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.universal-message p {
+  color: #374151;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.message-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+.hadith-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #f0fdfa, #eff6ff);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hadith-section h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.hadith-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.hadith-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hadith-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.hadith-card .icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.hadith-card h3 {
+  color: #065f46;
+  margin-bottom: 10px;
+}
+
+.hadith-card p {
+  color: #374151;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+
+
+.golden-teaching {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.golden-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.golden-text h2 {
+  color: #065f46;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  background: #fff7ed;
+  padding: 15px;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+blockquote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+blockquote span {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #d97706;
+}
+
+.golden-text p {
+  color: #374151;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.golden-img {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.golden-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.golden-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .golden-teaching {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .golden-text {
+    order: 2;
+  }
+
+  .golden-img {
+    order: 1;
+  }
+}
+
+
+.life-guidance {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.life-guidance h2 {
+  color: #064e3b;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.guidance-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.guidance-column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.guidance-column h3 {
+  color: #065f46;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.guidance-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.guidance-column li {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.green { background: #10b981; }
+.orange { background: #f59e0b; }
+
+.guidance-column strong {
+  display: block;
+  font-weight: 600;
+  color: #111827;
+}
+
+.guidance-column p {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 3px 0 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .guidance-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
+
+
+.final-sermon {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.final-sermon h2 {
+  font-size: 28px;
+  color: #f0fdf4;
+  margin-bottom: 10px;
+}
+
+.final-sermon .subtitle {
+  color: #d1fae5;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.sermon-card {
+  background: #065f46;
+  border-radius: 20px;
+  padding: 40px;
+  color: #f9fafb;
+  transition: transform 0.4s ease;
+}
+
+.sermon-card:hover {
+  transform: scale(1.03);
+}
+
+blockquote {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 10px;
+  color: #facc15;
+  font-weight: 500;
+}
+
+.sermon-bottom {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.message-box {
+  flex: 1;
+  min-width: 250px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.message-box h3 {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.message-box ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #f9fafb;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .sermon-bottom {
+    flex-direction: column;
+  }
 }
