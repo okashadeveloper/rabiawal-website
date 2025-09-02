@@ -1890,7 +1890,14 @@ background-size: auto;
 
 
 /*yaha sey family kaa kaam st hay */
-
+.contact-header10 {
+background-image:linear-gradient(hsl(152deg 93% 7% / 76%), rgba(0, 0, 0, 0.2)), url(./images/marraige1.jpg);
+height: 700px;
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
 
 .marriage-section {
   background: #fff;
@@ -2579,7 +2586,7 @@ blockquote {
 
 
 .battles-header {
- background-image:linear-gradient(hsl(152deg 93% 7% / 76%), rgba(0, 0, 0, 0.4)), url(./images/hijrah.png);
+ background-image:linear-gradient(hsl(152deg 93% 7% / 76%), rgba(0, 0, 0, 0.4)), url(./images/battels1.jpg);
  height: 700px;
 background-size: cover;
   color: #fff;
@@ -2615,6 +2622,7 @@ background-size: cover;
   gap: 30px;
   flex-wrap: wrap;
   text-align: left;
+  
 }
 
 .battle-text {
@@ -2683,7 +2691,7 @@ background-size: cover;
   max-width: 1000px;
   margin: 40px auto;
   padding: 30px;
-  background: #f0e1ce;
+ background-color: #7f1d1d4d;
   border-radius: 15px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
@@ -3049,33 +3057,17 @@ blockquote span {
 
 
 
-/*yaha sey ahley bayt ka kaam st hay */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*yaha sey ahley bayt ka kaam st hay*/
-
+.contact-header11 {
+background-image:linear-gradient(hsl(152deg 93% 7% / 76%), rgba(0, 0, 0, 0.2)), url(./images/bayt1.jpg);
+height: 700px;
+background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
 
 /* Section Background */
 .ahle-bayt-section {
